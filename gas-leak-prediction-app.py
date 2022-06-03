@@ -118,7 +118,7 @@ if st.button("Predict"):
 
 
 
- st.sidebar.subheader("About App")
+st.sidebar.subheader("About App")
 
 st.sidebar.info("This web app is helps you to find out whether there's a gas leak detected in pipeline or not")
 st.sidebar.info("Enter the required fields and click on the 'Predict' button to check whether gas leak is detected at pipeline")
